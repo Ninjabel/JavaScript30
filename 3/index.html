@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS Variables</title>
+</head>
+<body>
+    <h2>Update CSS variables with <span class="hl">JS</span></h2>
+    <div class="controls">
+        <label for="spacing">Spacing</label>
+        <input type="range" name="spacing" min="5" max="36" value="10" data-sizing="px">
+    
+        <label for="blur">Blur</label>
+        <input type="range" name="blur" min="0" max="25" value="10" data-sizing="px">
+        
+        <label for="spacing">Base Color</label>
+        <input type="color" name="base" value="#ffa500">
+    </div>
+
+    <div class="img-wrapper">
+        <img src="/img/new-york.jpg" alt="new-york picture">
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

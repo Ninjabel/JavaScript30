@@ -1,0 +1,36 @@
+:root {
+    --base: orange;
+    --spacing: 10px;
+    --blur: 10px;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+    overflow: hidden;
+    color: white;
+    background-color: rgb(2, 26, 20);
+}
+h2 {
+    width: fit-content;
+    font-size: 56px;
+    margin: 20px auto;
+}
+.controls {
+    margin: 20px auto;
+    width: fit-content;
+    font-size: 36px;
+}
+.img-wrapper {
+    width: fit-content;
+    margin: auto;
+}
+img {
+    width: 725px;
+    margin: auto;
+    padding: var(--spacing);
+    background-color: var(--base);
+    filter: blur(var(--blur));
+}
+.hl {
+    color: var(--base);
+}
